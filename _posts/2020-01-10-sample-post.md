@@ -60,3 +60,22 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 | Foot1   | Foot2   | Foot3
 
 This is a [link](https://example.com)
+
+## Collapsible Blocks
+
+<details>
+   <summary>
+      <h3 style="margin-top:0; display: inline-block">Title</h3>
+   </summary>
+   <div class="parent" markdown="1">
+   This is some summary but after summary it does have some subtitles  
+
+## Subtitle 1
+   Will it show this subtitle
+
+   A list of categories:
+
+   - foo
+   - bar
+   </div>
+</details>
